@@ -19,7 +19,10 @@ export default function App() {
             className="w-full mt-2 p-2 rounded bg-gray-800 text-white border border-gray-700 focus:border-blue-500 outline-none"
           />
 
-          <input type="submit" value="Adicionar cliente" className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded cursor-pointer transition-colors" />
+          <input 
+          type="submit" 
+          value="Adicionar cliente" 
+          className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded cursor-pointer transition-colors" />
 
         </form>
 
